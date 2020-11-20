@@ -241,6 +241,7 @@ SECTION WRAPS
 /* Copyright Wrap */
 
 #copyrights {
+  visibility: hidden;
   background: #222222;
   padding: 20px 0;
   text-align: center;

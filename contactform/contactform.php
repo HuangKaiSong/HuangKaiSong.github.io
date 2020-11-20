@@ -9,14 +9,14 @@
   if( file_exists($php_mail_form_library = '../lib/php-mail-form/php-mail-form.php' )) {
     include( $php_mail_form_library );
   } else {
-    die( 'Unable to load the PHP Mail Form Library!');
+    die( '无法加载PHP邮件表单库！');
   }
 
   $contactform = new PHP_Mail_Form;
   $contactform->ajax = true;
 
-  // Replace with your real receiving email address
-  $contactform->to = 'contact@example.com';
+  // 替换为您的真实接收电子邮件地址
+  $contactform->to = '3292339490@qq.com';
   $contactform->from_name = $_POST['name'];
   $contactform->from_email = $_POST['email'];
   $contactform->subject = $_POST['subject'];
